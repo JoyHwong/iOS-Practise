@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93ECF8F31E88AA25001047DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93ECF8F21E88AA25001047DF /* AppDelegate.swift */; };
+		93ECF8F51E88AA25001047DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93ECF8F41E88AA25001047DF /* ViewController.swift */; };
+		93ECF8F81E88AA25001047DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93ECF8F61E88AA25001047DF /* Main.storyboard */; };
+		93ECF8FA1E88AA25001047DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93ECF8F91E88AA25001047DF /* Assets.xcassets */; };
+		93ECF8FD1E88AA25001047DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93ECF8FB1E88AA25001047DF /* LaunchScreen.storyboard */; };
+		93ECF9081E88AD28001047DF /* 保罗克利-肖像.png in Resources */ = {isa = PBXBuildFile; fileRef = 93ECF9051E88AD28001047DF /* 保罗克利-肖像.png */; };
+		93ECF9091E88AD28001047DF /* 罗丹-思想者.png in Resources */ = {isa = PBXBuildFile; fileRef = 93ECF9061E88AD28001047DF /* 罗丹-思想者.png */; };
+		93ECF90A1E88AD28001047DF /* 达芬奇-蒙娜丽莎.png in Resources */ = {isa = PBXBuildFile; fileRef = 93ECF9071E88AD28001047DF /* 达芬奇-蒙娜丽莎.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		93ECF8EF1E88AA25001047DF /* PageControlNavigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PageControlNavigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93ECF8F21E88AA25001047DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		93ECF8F41E88AA25001047DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		93ECF8F71E88AA25001047DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		93ECF8F91E88AA25001047DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		93ECF8FC1E88AA25001047DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		93ECF8FE1E88AA25001047DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93ECF9051E88AD28001047DF /* 保罗克利-肖像.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "保罗克利-肖像.png"; sourceTree = "<group>"; };
+		93ECF9061E88AD28001047DF /* 罗丹-思想者.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "罗丹-思想者.png"; sourceTree = "<group>"; };
+		93ECF9071E88AD28001047DF /* 达芬奇-蒙娜丽莎.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "达芬奇-蒙娜丽莎.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93ECF8EC1E88AA25001047DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93ECF8E61E88AA25001047DF = {
+			isa = PBXGroup;
+			children = (
+				93ECF8F11E88AA25001047DF /* PageControlNavigation */,
+				93ECF8F01E88AA25001047DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93ECF8F01E88AA25001047DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93ECF8EF1E88AA25001047DF /* PageControlNavigation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93ECF8F11E88AA25001047DF /* PageControlNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				93ECF9041E88AD28001047DF /* images */,
+				93ECF8F21E88AA25001047DF /* AppDelegate.swift */,
+				93ECF8F41E88AA25001047DF /* ViewController.swift */,
+				93ECF8F61E88AA25001047DF /* Main.storyboard */,
+				93ECF8F91E88AA25001047DF /* Assets.xcassets */,
+				93ECF8FB1E88AA25001047DF /* LaunchScreen.storyboard */,
+				93ECF8FE1E88AA25001047DF /* Info.plist */,
+			);
+			path = PageControlNavigation;
+			sourceTree = "<group>";
+		};
+		93ECF9041E88AD28001047DF /* images */ = {
+			isa = PBXGroup;
+			children = (
+				93ECF9051E88AD28001047DF /* 保罗克利-肖像.png */,
+				93ECF9061E88AD28001047DF /* 罗丹-思想者.png */,
+				93ECF9071E88AD28001047DF /* 达芬奇-蒙娜丽莎.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93ECF8EE1E88AA25001047DF /* PageControlNavigation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93ECF9011E88AA25001047DF /* Build configuration list for PBXNativeTarget "PageControlNavigation" */;
+			buildPhases = (
+				93ECF8EB1E88AA25001047DF /* Sources */,
+				93ECF8EC1E88AA25001047DF /* Frameworks */,
+				93ECF8ED1E88AA25001047DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PageControlNavigation;
+			productName = PageControlNavigation;
+			productReference = 93ECF8EF1E88AA25001047DF /* PageControlNavigation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93ECF8E71E88AA25001047DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = JoyHwong;
+				TargetAttributes = {
+					93ECF8EE1E88AA25001047DF = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 93ECF8EA1E88AA25001047DF /* Build configuration list for PBXProject "PageControlNavigation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93ECF8E61E88AA25001047DF;
+			productRefGroup = 93ECF8F01E88AA25001047DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93ECF8EE1E88AA25001047DF /* PageControlNavigation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93ECF8ED1E88AA25001047DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93ECF9091E88AD28001047DF /* 罗丹-思想者.png in Resources */,
+				93ECF9081E88AD28001047DF /* 保罗克利-肖像.png in Resources */,
+				93ECF8FD1E88AA25001047DF /* LaunchScreen.storyboard in Resources */,
+				93ECF8FA1E88AA25001047DF /* Assets.xcassets in Resources */,
+				93ECF8F81E88AA25001047DF /* Main.storyboard in Resources */,
+				93ECF90A1E88AD28001047DF /* 达芬奇-蒙娜丽莎.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93ECF8EB1E88AA25001047DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93ECF8F51E88AA25001047DF /* ViewController.swift in Sources */,
+				93ECF8F31E88AA25001047DF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		93ECF8F61E88AA25001047DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93ECF8F71E88AA25001047DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		93ECF8FB1E88AA25001047DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93ECF8FC1E88AA25001047DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93ECF8FF1E88AA25001047DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		93ECF9001E88AA25001047DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93ECF9021E88AA25001047DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PageControlNavigation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joyhwong.PageControlNavigation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		93ECF9031E88AA25001047DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PageControlNavigation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joyhwong.PageControlNavigation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93ECF8EA1E88AA25001047DF /* Build configuration list for PBXProject "PageControlNavigation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93ECF8FF1E88AA25001047DF /* Debug */,
+				93ECF9001E88AA25001047DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93ECF9011E88AA25001047DF /* Build configuration list for PBXNativeTarget "PageControlNavigation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93ECF9021E88AA25001047DF /* Debug */,
+				93ECF9031E88AA25001047DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93ECF8E71E88AA25001047DF /* Project object */;
+}
