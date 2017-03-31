@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		931668191E8E99940082E376 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931668181E8E99940082E376 /* ContactViewController.swift */; };
 		93A4B7BD1E8B746B00755BDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A4B7BC1E8B746B00755BDD /* AppDelegate.swift */; };
 		93A4B7BF1E8B746B00755BDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A4B7BE1E8B746B00755BDD /* ViewController.swift */; };
 		93A4B7C21E8B746B00755BDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93A4B7C01E8B746B00755BDD /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		931668181E8E99940082E376 /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
 		93A4B7B91E8B746B00755BDD /* ReadContact.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReadContact.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4B7BC1E8B746B00755BDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		93A4B7BE1E8B746B00755BDD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 			children = (
 				93A4B7BC1E8B746B00755BDD /* AppDelegate.swift */,
 				93A4B7BE1E8B746B00755BDD /* ViewController.swift */,
+				931668181E8E99940082E376 /* ContactViewController.swift */,
 				93A4B7C01E8B746B00755BDD /* Main.storyboard */,
 				93A4B7C61E8B746B00755BDD /* Assets.xcassets */,
 				93A4B7C81E8B746B00755BDD /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				93A4B7BF1E8B746B00755BDD /* ViewController.swift in Sources */,
+				931668191E8E99940082E376 /* ContactViewController.swift in Sources */,
 				93A4B7BD1E8B746B00755BDD /* AppDelegate.swift in Sources */,
 				93A4B7C51E8B746B00755BDD /* ReadContact.xcdatamodeld in Sources */,
 			);
@@ -301,6 +305,7 @@
 				93A4B7D01E8B746B00755BDD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
