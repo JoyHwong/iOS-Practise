@@ -14,6 +14,8 @@
 		931668311E8EA3FC0082E376 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 931668301E8EA3FC0082E376 /* Assets.xcassets */; };
 		931668341E8EA3FC0082E376 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 931668321E8EA3FC0082E376 /* LaunchScreen.storyboard */; };
 		9316683C1E8FD72E0082E376 /* AddContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9316683B1E8FD72E0082E376 /* AddContactViewController.swift */; };
+		9316683E1E908ECA0082E376 /* ContactDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9316683D1E908ECA0082E376 /* ContactDAO.swift */; };
+		931668401E9095FE0082E376 /* ShowContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9316683F1E9095FE0082E376 /* ShowContactViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		931668331E8EA3FC0082E376 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		931668351E8EA3FC0082E376 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9316683B1E8FD72E0082E376 /* AddContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddContactViewController.swift; sourceTree = "<group>"; };
+		9316683D1E908ECA0082E376 /* ContactDAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactDAO.swift; sourceTree = "<group>"; };
+		9316683F1E9095FE0082E376 /* ShowContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowContactViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				931668321E8EA3FC0082E376 /* LaunchScreen.storyboard */,
 				931668351E8EA3FC0082E376 /* Info.plist */,
 				9316682D1E8EA3FB0082E376 /* WriteContact.xcdatamodeld */,
+				9316683D1E908ECA0082E376 /* ContactDAO.swift */,
+				9316683F1E9095FE0082E376 /* ShowContactViewController.swift */,
 			);
 			path = WriteContact;
 			sourceTree = "<group>";
@@ -142,9 +148,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9316683E1E908ECA0082E376 /* ContactDAO.swift in Sources */,
 				931668291E8EA3FB0082E376 /* ViewController.swift in Sources */,
 				9316683C1E8FD72E0082E376 /* AddContactViewController.swift in Sources */,
 				931668271E8EA3FB0082E376 /* AppDelegate.swift in Sources */,
+				931668401E9095FE0082E376 /* ShowContactViewController.swift in Sources */,
 				9316682F1E8EA3FB0082E376 /* WriteContact.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,23 +1,21 @@
 import UIKit
 
-class AddContactViewController: UITableViewController {
+class ShowContactViewController: UITableViewController {
 
     @IBOutlet weak var givenName: UITextField!
-    
     @IBOutlet weak var familyName: UITextField!
-    
-    @IBOutlet weak var iphone: UITextField!
-    
     @IBOutlet weak var mobile: UITextField!
+    @IBOutlet weak var iphone: UITextField!
+    @IBOutlet weak var email: UITextField!
+    
+    var givenNameText: String!
+    var familyNameText: String!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem()
+        self.givenName.text = self.givenNameText
+        self.familyName.text = self.familyNameText
     }
 
     override func didReceiveMemoryWarning() {
@@ -28,18 +26,13 @@ class AddContactViewController: UITableViewController {
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
         return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
-        return 6
+        return 8
     }
-    
-    @IBAction func cancel(_ sender: Any) {
-        self.dismiss(animated: true, completion: nil)
-    }
+
     /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
