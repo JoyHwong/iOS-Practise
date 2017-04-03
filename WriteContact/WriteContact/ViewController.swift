@@ -1,14 +1,20 @@
 import UIKit
 import Contacts
 
-class ViewController: UITableViewController {
+class ViewController: UITableViewController, UISearchResultsUpdating, UISearchBarDelegate {
     
     var contactDAO: ContactDAO!
     var listContacts: Array<CNContact>!
+    var searchController: UISearchController!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         self.contactDAO = ContactDAO()
+
+        self.searchController = UISearchController(searchResultsController: nil)
+        self.tableView.tableHeaderView = self.searchController.searchBar
+        self.searchController.searchBar.delegate = self
+        self.searchController.searchResultsUpdater = self
         
         DispatchQueue.global().async {
             self.listContacts = self.contactDAO.findAllContacts()
@@ -23,7 +29,19 @@ class ViewController: UITableViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    func updateSearchResults(for searchController: UISearchController) {
+        self.tableView.reloadData()
+        let searchBar = searchController.searchBar
+        let searchText = searchBar.text
+        if (searchText == nil || searchText?.characters.count == 0) {
+            self.listContacts = self.contactDAO.findAllContacts()
+        } else {
+            self.listContacts = self.contactDAO.findContactByName(name: searchText!)
+        }
+        self.tableView.reloadData()
+    }
+    
+       override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if (self.listContacts == nil) {
             return 0
         }
@@ -43,10 +61,7 @@ class ViewController: UITableViewController {
             let showContact = segue.destination as! ShowContactViewController
             let indexPath = self.tableView.indexPathForSelectedRow!
             
-            showContact.familyNameText = self.listContacts[indexPath.row].familyName
-            showContact.givenNameText = self.listContacts[indexPath.row].givenName
+            showContact.contact = self.listContacts[indexPath.row]
         }
     }
-    
 }
-

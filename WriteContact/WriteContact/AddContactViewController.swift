@@ -3,11 +3,8 @@ import UIKit
 class AddContactViewController: UITableViewController {
 
     @IBOutlet weak var givenName: UITextField!
-    
     @IBOutlet weak var familyName: UITextField!
-    
     @IBOutlet weak var iphone: UITextField!
-    
     @IBOutlet weak var mobile: UITextField!
     
     override func viewDidLoad() {

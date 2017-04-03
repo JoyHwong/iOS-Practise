@@ -465,24 +465,24 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wfy-lR-9rm">
-                                                    <rect key="frame" x="132" y="8" width="180" height="28"/>
+                                                    <rect key="frame" x="139" y="8" width="173" height="28"/>
                                                     <nil key="textColor"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits"/>
                                                 </textField>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xVo-FT-9rJ">
-                                                    <rect key="frame" x="16" y="16" width="41" height="11.5"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Work Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xVo-FT-9rJ">
+                                                    <rect key="frame" x="16" y="16" width="85.5" height="11.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="wfy-lR-9rm" firstAttribute="leading" secondItem="xVo-FT-9rJ" secondAttribute="trailing" constant="75" id="Bmz-jJ-3XV"/>
                                                 <constraint firstItem="xVo-FT-9rJ" firstAttribute="leading" secondItem="Lmq-vr-hD6" secondAttribute="leadingMargin" constant="8" id="DnB-iq-Da6"/>
                                                 <constraint firstItem="xVo-FT-9rJ" firstAttribute="top" secondItem="Lmq-vr-hD6" secondAttribute="topMargin" constant="8" id="EAB-G0-8uC"/>
                                                 <constraint firstAttribute="bottom" secondItem="wfy-lR-9rm" secondAttribute="bottom" constant="8" id="Hrv-Cb-YTy"/>
                                                 <constraint firstAttribute="trailing" secondItem="wfy-lR-9rm" secondAttribute="trailing" constant="8" id="KFZ-kP-vEk"/>
+                                                <constraint firstItem="wfy-lR-9rm" firstAttribute="leading" secondItem="xVo-FT-9rJ" secondAttribute="trailing" constant="37.5" id="cG6-Ix-KYz"/>
                                                 <constraint firstItem="wfy-lR-9rm" firstAttribute="top" secondItem="Lmq-vr-hD6" secondAttribute="top" constant="8" id="feL-2A-vbQ"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="xVo-FT-9rJ" secondAttribute="bottom" constant="8" id="liQ-Or-kML"/>
                                             </constraints>
@@ -496,13 +496,16 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="94N-dL-Wpw">
-                                                    <rect key="frame" x="144" y="8" width="168" height="28"/>
+                                                    <rect key="frame" x="137" y="8" width="175" height="28"/>
                                                     <nil key="textColor"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits"/>
                                                 </textField>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iPhone" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2CD-nU-icX">
-                                                    <rect key="frame" x="16" y="16" width="53" height="11.5"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Home Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2CD-nU-icX">
+                                                    <rect key="frame" x="16" y="16" width="91" height="11.5"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="91" id="YsN-XK-MRD"/>
+                                                    </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -511,9 +514,9 @@
                                             <constraints>
                                                 <constraint firstAttribute="bottomMargin" secondItem="2CD-nU-icX" secondAttribute="bottom" constant="8" id="2z1-xx-6tC"/>
                                                 <constraint firstItem="2CD-nU-icX" firstAttribute="leading" secondItem="yT1-s9-ebq" secondAttribute="leadingMargin" constant="8" id="Idh-g0-jC9"/>
-                                                <constraint firstItem="94N-dL-Wpw" firstAttribute="leading" secondItem="2CD-nU-icX" secondAttribute="trailing" constant="75" id="KFw-Ei-OAz"/>
                                                 <constraint firstAttribute="trailing" secondItem="94N-dL-Wpw" secondAttribute="trailing" constant="8" id="NYG-YT-OyZ"/>
                                                 <constraint firstItem="2CD-nU-icX" firstAttribute="top" secondItem="yT1-s9-ebq" secondAttribute="topMargin" constant="8" id="TEL-2j-N0W"/>
+                                                <constraint firstItem="94N-dL-Wpw" firstAttribute="leading" secondItem="2CD-nU-icX" secondAttribute="trailing" constant="30" id="Zut-fu-9dF"/>
                                                 <constraint firstAttribute="bottom" secondItem="94N-dL-Wpw" secondAttribute="bottom" constant="8" id="wUJ-qF-slJ"/>
                                                 <constraint firstItem="94N-dL-Wpw" firstAttribute="top" secondItem="yT1-s9-ebq" secondAttribute="top" constant="8" id="xSs-t0-j7E"/>
                                             </constraints>
@@ -528,19 +531,24 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Contacts" id="pkV-5d-1fY">
-                        <barButtonItem key="rightBarButtonItem" title="Save" id="6RE-GR-qeZ"/>
+                        <barButtonItem key="rightBarButtonItem" title="Save" id="6RE-GR-qeZ">
+                            <connections>
+                                <action selector="onClick:" destination="vm5-bt-LrQ" id="Ipr-Ca-nHg"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="email" destination="wfy-lR-9rm" id="Ytz-GC-fcf"/>
                         <outlet property="familyName" destination="NBt-Ad-c5Y" id="fN0-mF-YvU"/>
                         <outlet property="givenName" destination="YKd-QN-6nI" id="SRk-tE-VSN"/>
+                        <outlet property="homeEmail" destination="wfy-lR-9rm" id="WBN-HW-hrl"/>
                         <outlet property="iphone" destination="5QM-kj-sOa" id="Ucs-tB-ZgX"/>
                         <outlet property="mobile" destination="N0K-aH-sUt" id="IRP-76-GTW"/>
+                        <outlet property="workEmail" destination="94N-dL-Wpw" id="1q7-VE-xYS"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kjK-pv-iDJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1382" y="337"/>
+            <point key="canvasLocation" x="1381.875" y="336.97183098591552"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="BjE-fy-FtS">
