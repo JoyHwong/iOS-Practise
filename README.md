@@ -1,2 +1,2 @@
 # iOS-Practise
-Use Swift to write iOS application
+Use Swift to write iOS application～
